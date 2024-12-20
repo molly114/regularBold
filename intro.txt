@@ -1,10 +1,4 @@
 반응형 웹으로 제작한 레귤러볼드 예제 페이지입니다.
 
-
-My Brain is AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHAHHHHHHHHHHHHHHHHHHHHH
-My thought is AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHAHHHHHHHHHHHHHHHHHH
-seeing tonight is a bad idea right?
-seeing tonight is a bad idea right?
-seeing tonight is a bad idea right?
-fuck it it's fine
-
+2024-12-20
+웹 호스팅으로 페이지를 배포하겠습니다.
