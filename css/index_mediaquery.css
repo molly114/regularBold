@@ -1,0 +1,297 @@
+@charset "utf-8";
+
+/* index_mediaquery.css */
+
+/* tablet UI */
+
+@media all and (max-width:1024px) {
+
+    header {
+        height: 60px;
+        padding: 10px 0;
+        box-sizing: border-box;
+    }
+
+    header .logo img {
+        height: 30px;
+        margin-top: 5px;
+    }
+
+    header .m-menu {
+        display: block;
+        float: right;
+        width: 30px;
+        margin-top: 5px;
+
+        /* outline: 2px solid tomato; */
+    }
+
+    header .m-menu img {
+        display: block;
+        width: 100%;
+    }
+
+    header .gnb {
+        display: none;
+    }
+
+    header .sns {
+        display: none;
+    }
+
+
+    /* ------article.Intro--------- */
+
+    article.intro {
+        height: 500px;
+        background-size: 450px;
+
+        /* outline: 2px solid lime; */
+    }
+
+    article.intro .txt-box {
+        /*  outline: 2px solid lime; */
+    }
+
+    article.intro .txt-box p.des-en {
+        font-size: 19.2px;
+        font-size: 1.2rem;
+    }
+
+    article.intro .txt-box p.des-ko {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    article.intro .btn {
+        font-size: 16px;
+        font-size: 1rem;
+
+        padding: 8px 9px;
+
+        position: absolute;
+        bottom: 8%;
+        color: #e64461;
+    }
+
+    /* ------------------- article2.WORKS ------------------------- */
+
+    article.works .img-box-wrap .img-box {
+        width: 49%;
+    }
+
+    article.works .img-box-wrap .img-box:nth-child(2n+1) {
+        margin-left: 0;
+    }
+
+    /* ------------------- article3.ABOUT ------------------------- */
+
+    article.about {}
+
+    article.about .sec-tit {
+        font-size: 26px;
+        font-size: 1.625rem;
+        margin-bottom: 20px;
+    }
+
+    article.about p {
+        width: 70%;
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    article.about .btn {
+        font-size: 16px;
+        font-size: 1rem;
+
+        padding: 8px 9px;
+    }
+
+    /* ------------------- article4.NEWS ------------------------- */
+
+    article.news {}
+
+    article.news .sec-tit {
+        font-size: 26px;
+        font-size: 1.625rem;
+        margin-bottom: 10px;
+    }
+
+    article.news>p {
+        font-size: 16px;
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    article.news .box-wrap .box .title {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    /* ----------------section.contact---------------- */
+
+    section.contact .sec-tit {
+        font-size: 32px;
+        font-size: 2rem;
+    }
+
+    section.contact p {
+        font-size: 20px;
+        font-size: 1.25rem;
+        margin-bottom: 60px;
+    }
+
+    section.contact .btn {
+        font-size: 16px;
+        font-size: 1rem;
+
+        padding: 8px 9px;
+    }
+
+
+}
+
+
+
+
+
+/* mobile UI */
+@media all and (max-width:767px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    section {
+        margin-top: 80px;
+    }
+
+    header .inner {
+        position: relative;
+        /* gnb기준 */
+    }
+
+    header .m-menu {
+        display: none;
+    }
+
+    header #menu {
+        display: block;
+        float: right;
+        margin-top: 5px;
+    }
+
+    header #menu span {
+        /* border: 1px solid lime; */
+        width: 25px;
+        display: block;
+        background-color: #333;
+        padding: 1px;
+        margin: 6px;
+    }
+
+    header .gnb {
+        /* display: block; */
+        background-color: #c1ccff;
+        opacity: 0.9;
+
+        width: 100%;
+
+        position: absolute;
+        left: 50%;
+        top: 128%;
+
+        display: none;
+    }
+
+    header .gnb ul {}
+
+    header .gnb ul li {
+        margin: 0;
+        width: 100%;
+        border-bottom: 1px solid purple;
+        /* outline: 2px solid red; */
+    }
+
+    header .gnb ul li a {}
+
+    /* ------------------ article1. INTRO ---------------- */
+
+    article.intro {
+        /*  outline: 2px solid lime; */
+        height: 650px;
+        background: url(../images/rb_logo.png) no-repeat center bottom/contain;
+        margin-bottom: 50px;
+
+    }
+
+    article.intro .txt-box {
+        width: 100%;
+        position: static;
+        margin-bottom: 30px;
+    }
+
+    article.intro .btn {
+        position: static;
+
+    }
+
+    /* ------------------- article2.WORKS ------------------------- */
+
+    article.works .img-box-wrap .img-box {
+        width: 100%;
+        float: none;
+    }
+
+    article.works .img-box-wrap .img-box~.img-box {
+        margin-left: 0;
+    }
+
+    /* ------------------- article3.ABOUT ------------------------- */
+
+    article.about p {
+        width: 100%;
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    /* ------------------- article4.NEWS ------------------------- */
+
+    article.news>p {
+        margin-bottom: 8px;
+    }
+
+    article.news .box-wrap .box {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    article.news .box-wrap .box~.box {
+        margin-left: 0;
+
+    }
+
+    /* ----------------section.contact---------------- */
+
+    section.contact p {
+        font-size: 18px;
+        font-size: 1.125rem;
+        margin-bottom: 40px;
+    }
+
+    /* ----------------footer---------------- */
+
+    footer .footer-box {
+        float: none;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    footer .footer-box h4 {
+        padding-bottom: 10px;
+    }
+
+}
